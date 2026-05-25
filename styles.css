@@ -1,25 +1,83 @@
 body {
+  margin: 0;
+  padding: 12px;
+
   display: flex;
   justify-content: center;
   align-items: center;
+
   min-height: 100vh;
-  margin: 0;
+
   background-color: #B1DFFC;
+
+  font-family: Georgia, serif;
+  box-sizing: border-box;
 }
 
-.card{
+.card {
+  width: 100%;
+  max-width: 340px;
+
+  background-color: #FFEBF1;
+
+  border-radius: 28px;
+
+  padding: 24px 18px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 320px;
-  height: 730px;
-  padding: 30px 38px;
-  border-radius: 30px;
-  background-color: #FFEBF1;
+
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+p {
+  font-size: 0.95rem;
+  line-height: 1.4;
 }
 
 #sun-logo img {
-  width: 190px;
-  height: 130px;
+  width: 200px;
+  height: auto;
+
+  margin: 20px 0;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+
+  margin-bottom: 18px;
+
+  border: none;
+  border-radius: 10px;
+
+  font-size: 1rem;
+
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+
+  padding: 12px;
+
+  border: none;
+  border-radius: 12px;
+
+  background-color: #F9B8CC;
+
+  font-size: 1rem;
+  cursor: pointer;
 }
